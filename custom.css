@@ -1,6 +1,5 @@
-/* TEST: wenn das greift, wird der ganze Hintergrund rosa */
-body { background: pink !important; }
-
-h1.lia-h1 {
+.lia-slide h1,
+.lia-slide h1.lia-h1,
+h1 {
   color: rgb(162, 198, 23) !important;
 }
