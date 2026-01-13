@@ -1,5 +1,23 @@
-.lia-slide h1,
-.lia-slide h1.lia-h1,
-h1 {
-  color: rgb(162, 198, 23) !important;
+/* Prüfen-Button */
+button.lia-check {
+  background-color: rgb(0, 166, 81);   /* HKS 56 */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Hover */
+button.lia-check:hover {
+  background-color: rgb(0, 145, 70);
+}
+
+/* Deaktiviert */
+button.lia-check:disabled {
+  background-color: rgb(180, 180, 180);
+  color: #555;
+  cursor: not-allowed;
 }
